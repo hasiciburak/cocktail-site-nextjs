@@ -6,7 +6,7 @@ const Statement = () => {
       <Styledh1>The Crazy Bartender</Styledh1>
       <p className="text-gray-600 text-center pt-1">
         Crazy cocktails from that you&apos;ll love, in one place
-      </p>{" "}
+      </p>
     </div>
   );
 };
