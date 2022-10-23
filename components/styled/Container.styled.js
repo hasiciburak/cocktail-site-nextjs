@@ -5,6 +5,7 @@ const Container = tw.div`
     flex-col
     w-screen
     align-items[center]
+    mx-5
 `;
 
 export default Container;
