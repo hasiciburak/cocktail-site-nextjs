@@ -1,6 +1,6 @@
 import React from "react";
 import StyledButton from "../styled/Button.styled";
-
+import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 const ActionsRow = () => {
   return (
     <div className="flex flex-col justify-center align-middle pt-5">
@@ -13,7 +13,8 @@ const ActionsRow = () => {
           />
         </div>
         <div className="w-2/6 ">
-          <StyledButton className="">
+          <StyledButton>
+            <MagnifyingGlassIcon className="h-6 w-6 text-inherit" />
             Show Me Good Stuff
           </StyledButton>
         </div>
