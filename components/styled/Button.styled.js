@@ -6,8 +6,8 @@ const StyledButton = tw.button`
   text-blue-900
   rounded
   px-2
-  py-3
-  mt-5
-  w-1/3
+  py-2
+  float-right
+  w-11/12
   `;
 export default StyledButton;

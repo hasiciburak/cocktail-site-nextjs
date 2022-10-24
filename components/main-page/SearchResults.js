@@ -8,7 +8,18 @@ const SearchResults = () => {
         <Styledh2>Search Results</Styledh2>
         <p>... cocktails found</p>
       </div>
-      <div>
+      <div className="flex flex-row gap-3">
+        <CocktailCard />
+        <CocktailCard />
+        <CocktailCard />
+        <CocktailCard />
+        <CocktailCard />
+      </div>
+      <div className="flex flex-row gap-3">
+        <CocktailCard />
+        <CocktailCard />
+        <CocktailCard />
+        <CocktailCard />
         <CocktailCard />
       </div>
     </div>
