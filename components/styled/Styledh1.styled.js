@@ -6,7 +6,7 @@ const Styledh1 = tw.h1`
     font-abril
     text-center
     font-semibold
-    pt-10
+   
 `;
 
 export default Styledh1;

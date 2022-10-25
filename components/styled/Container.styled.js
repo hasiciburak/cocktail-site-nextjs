@@ -7,6 +7,7 @@ const Container = tw.div`
     justify-center 
     mx-auto  
     max-width[1160px]
+    pt-5
     `;
 
 export default Container;
